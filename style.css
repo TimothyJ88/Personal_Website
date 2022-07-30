@@ -1,0 +1,111 @@
+html {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  scroll-behavior:smooth;
+}
+
+section {
+  min-height: 150vh;
+  width: 100%;
+}
+
+#sec-1 {
+  background-color: rgb(210, 233, 255);
+}
+
+.symbol {
+    text-align: center;
+}
+
+img {
+    width:200px;
+}
+
+h1 {
+    margin-left: 30%;
+    text-align: left;
+    font-size: 30px;
+}
+
+p {
+    margin-left: 30%;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 30%;
+}
+
+.index-items {
+    margin-left:30%;
+    text-align: left;
+    display: none;
+    margin-right:30%;
+  }
+
+  .a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight:normal;
+    text-decoration: none;
+  }
+
+  .index-btn {
+    margin-left:30%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  #toggle-index {
+    display: none;
+  }
+
+  #toggle-index:checked ~ .index-items {
+    display: block;
+  }
+
+  #toggle-index:checked ~ label .hide {
+    display: inline;
+  }
+
+  #sec-2 {
+    background-color: rgb(195, 222, 249);
+    color:rgb(0, 0, 0);
+  }
+
+  #more {
+    margin-top: 20%;
+  }
+
+  #pic_of_me {
+    margin-left: 30%;
+  }
+
+  h4 {
+    margin-left: 30%;
+  }
+
+  #sec-3 {
+    background-color: rgb(186, 221, 254);
+    color:rgb(0, 0, 0);
+  }
+
+  #contacts {
+    margin-top: 20%;
+  }
+
+  .social-media {
+    display: flex;
+  }
+
+  #Instagram {
+    margin-left:30%;
+  }
+
+  #facebook {
+    margin-right: 30%;
+  }
+
+  #gmail {
+    margin-left: 30%;
+  }
