@@ -49,11 +49,22 @@ p {
 
 .index-btn {
   margin-left: 30%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-align: left;
   margin-bottom: 10px;
   display: block;
+  margin-right: 30%;
+}
+
+.index-btn:hover {
+  transition: 0.25s;
+  background-color: #a9f7f6;
+}
+
+.a:hover {
+  transition: 0.25s;
+  background-color: #a9f7f6;
 }
 
 #toggle-index {
@@ -102,12 +113,29 @@ h4 {
   margin-left: 30%;
 }
 
-#facebook {
+#Instagram:hover {
+  transition: 0.25s;
+  filter: brightness(50%);
+}
+
+#Facebook {
   margin-right: 30%;
 }
 
-#gmail {
+#Facebook:hover {
+  transition: 0.25s;
+  filter: brightness(50%);
+}
+
+button {
+  font-size: 20px;
   margin-left: 30%;
+  background-color: transparent;
+  border:#00000068;
+}
+
+#email:hover {
+  background-color:#a9f7f6;
 }
 
 #randomProject {
